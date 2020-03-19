@@ -18,9 +18,11 @@ export class Comment extends Component {
             <div>{ this.state.comment }</div>
             <div>Зохиогч: { this.props.zohiogch }</div>
             <textarea onChange={this.bichih}></textarea>
-            <MyCoolButton comment = {this.state.comment} tovchNer = "Коммэнт бич" text="Хадгал"/>    
+            <MyCoolButton comment = {this.state.comment} tovchNer = "Коммэнт бич" text="Хадгал"/>  
+              
        </div>     
        );
    
     }
 }
+// MyCoolButton дээр бичигдсэн comment нь эх компонэнт руу илгээгдэх ба эх компонэнтээс MyCoolButton нь өөрийн props - оор дамжуулан comment утгыг хүлээн авна
