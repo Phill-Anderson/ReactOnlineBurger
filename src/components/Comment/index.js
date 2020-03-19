@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import {MyCoolButton} from "../MyCoolButton";
 import "./style.css";
+import App from "../App";
 // класс компонэнт
-export class Comment extends Component {
+class Comment extends Component {
     // класс компонэнт нь өөртөө state хадгалах зорилготойгоор ашиглагдаж эхэлсэн бөгөөд энэ нь ихээн хэмжээтэй том төслүүд дээр асуудлыг үүсгэдэг
     constructor(){
         super();
@@ -28,3 +29,4 @@ export class Comment extends Component {
     }
 }
 // MyCoolButton дээр бичигдсэн comment нь эх компонэнт руу илгээгдэх ба эх компонэнтээс MyCoolButton нь өөрийн props - оор дамжуулан comment утгыг хүлээн авна
+export default Comment;

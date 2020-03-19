@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "./logo.svg";
-import { Comment } from "../Comment"
+import  CommentDefault  from "../Comment"
 import "./style.css";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <header className="App-header">
           <img src = { logo } className="App-logo" alt="logo" />
 
-          <Comment zohiogch = "ДОРЖ"/>
+          <CommentDefault zohiogch = "ДОРЖ"/>
    
         </header>
       </div>
