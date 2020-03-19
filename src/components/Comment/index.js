@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import {MyCoolButton} from "../MyCoolButton";
+import "./style.css";
 // класс компонэнт
 export class Comment extends Component {
+    // класс компонэнт нь өөртөө state хадгалах зорилготойгоор ашиглагдаж эхэлсэн бөгөөд энэ нь ихээн хэмжээтэй том төслүүд дээр асуудлыг үүсгэдэг
     constructor(){
         super();
         this.state = {
@@ -16,7 +18,7 @@ export class Comment extends Component {
         return( 
        <div>
             <div>{ this.state.comment }</div>
-            <div>Зохиогч: { this.props.zohiogch }</div>
+            <div className="CoolText">Зохиогч: { this.props.zohiogch }</div>
             <textarea onChange={this.bichih}></textarea>
             <MyCoolButton comment = {this.state.comment} tovchNer = "Коммэнт бич" text="Хадгал"/>  
               

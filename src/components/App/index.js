@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
-import { MyCoolButton } from "./components/MyCoolButton";
-import { Comment } from "./components/Comment"
-import "./App.css";
+import { Comment } from "../Comment"
+import "./style.css";
 
 function App() {
   return (
