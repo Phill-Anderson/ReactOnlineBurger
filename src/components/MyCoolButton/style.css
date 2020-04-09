@@ -1,13 +1,7 @@
-
-.MyButton{
-    padding: 10px;
-  }
-.MyButton input{
-    background-color: #61dafb;
-    padding: 5px;
-    cursor: pointer;
-    width: 200px;
-  }
-  .coolText{
-    color: red;
+.CoolText {
+  color: green;
+}
+.CoolButtonContainer {
+  border: 1px solid gray;
+  margin: 20px;
 }

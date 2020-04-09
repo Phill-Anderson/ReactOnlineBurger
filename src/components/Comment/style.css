@@ -1,3 +1,4 @@
-.CoolText{
-    color: brown;
+.CommentContainer {
+  border: 1px solid gray;
+  margin: 20px;
 }
